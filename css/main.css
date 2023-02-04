@@ -35,7 +35,14 @@ a, p, h1 , h2 {
 .header__link--last-item {
     position: absolute;
     right: 0;
+    color: white;
 }
+
+.header__link a{
+    color: #222;
+}
+
+
 
 .button {
     color: white;
@@ -69,6 +76,10 @@ a, p, h1 , h2 {
     color: #555;
 }
 
+.header__link-more-video {
+    display: inline-block;
+}
+
 .header__additional-info {
     font-size: 20px;
     max-width: 515px;
@@ -77,6 +88,7 @@ a, p, h1 , h2 {
 .header__watch-video-text {
     font-weight: 600;
     font-size: 20px;
+    color: #222;
 }
 
 .header__watch-video-text::before {
